@@ -248,7 +248,7 @@ bottom: -15px;
 /*  ---------Sections----------   */
  .section{
      max-width: 1200px;
-     padding:  3rem;
+     padding: 2rem 4rem ;
      margin:  auto;
      text-align: center;     
  }
@@ -268,7 +268,7 @@ bottom: -15px;
      font-size: 2rem;
  }
  .container{
-     margin: 4rem 0;
+    margin: 2rem 0;
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
@@ -276,10 +276,12 @@ bottom: -15px;
  }
  .demonstration{
      margin: 1rem;
-     text-align: left;
+     text-align: left; 
+     padding-top: 4rem;
  }
  .demo-description{
      margin: 2rem 0;
+    
      font-size: 2rem;
  }
  .learn-more{
@@ -288,9 +290,7 @@ bottom: -15px;
      margin: 3rem 0;
      
  }
- .learn-more::after{
-     content: ;
- }
+  
  .cover-image-holder{
     margin: 1rem;
     text-align: center;
@@ -300,3 +300,10 @@ bottom: -15px;
      width: 100%;
  }
  
+ @media screen and (min-width:768px) {
+     .container{
+         grid-template-columns: repeat(2,1fr);
+         column-gap: 2rem;
+     }
+      
+ }
