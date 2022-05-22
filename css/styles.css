@@ -176,11 +176,18 @@ body{
 position: relative;
 bottom: -15px;
 }
+.footer-wave{
+position: relative;
+top: -10px;
+}
 .curve{
      fill: #fff;
-     position: relative;
-     
+     position: relative;  
 }
+.footer-curve{
+     transform:  scaleX(-1);
+}
+
 @media screen and (min-width:768px) {
     .logo{
         align-self: center;
@@ -316,4 +323,43 @@ bottom: -15px;
      }
 
       
+ }
+
+ /*   footer   */ 
+
+ .footer{
+     margin: 0;
+     padding-bottom: 3rem ;
+ }
+ .footer .demonstration{
+     margin: auto;
+     padding: 0;
+     width: 60%;
+     border-bottom: 1px solid var(--color-white);
+ }
+ .footer-nav-list{
+     max-height: 100vh;
+ }
+ .demonstration .footer-nav-list .list{
+     border: 0;
+ }
+
+ @media screen and (min-width:768px) {
+     .footer{
+         padding-bottom: 6rem;
+         width: 100%;
+     }
+     .footer .demonstration{
+     border-bottom:0;
+     width: 100%;
+      
+    }
+     .footer-nav-list{
+         margin: auto;
+     }
+    .footer .cover-image-holder{
+        align-self: center;
+    }
+     
+     
  }
