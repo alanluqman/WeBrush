@@ -305,5 +305,9 @@ bottom: -15px;
          grid-template-columns: repeat(2,1fr);
          column-gap: 2rem;
      }
+     .container:nth-of-type(even) .demonstration {
+        order: 2;
+     }
+
       
  }
