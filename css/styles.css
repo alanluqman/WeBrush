@@ -252,6 +252,9 @@ bottom: -15px;
      margin:  auto;
      text-align: center;     
  }
+ .header{
+     margin: 8rem 0;
+ }
  .heading1{
      margin: 2rem 0;
      color: var(--color-primary);
